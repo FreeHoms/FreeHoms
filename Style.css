@@ -1,0 +1,182 @@
+/* *{
+    border: 1px solid black;
+} */
+#center {
+    width: 60%;
+    margin: auto;
+    min-height: 500px;
+    background-color:   (63, 165, 191, 0.23);
+}
+
+.menuItm {
+    position: relative;
+    width: 20%;
+    display: inline-block;
+    left: 6%;
+    padding: 5px;
+    text-align: center;
+}
+
+.menuItm a:link {
+    color: rgba(255, 255, 255, 0.63);
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+.menuItm a:hover{
+    color: coral;
+}
+
+.menuItm a:visited {
+    color:gray;
+}
+
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    color: #c9d0d4; font-family:fantasy;
+    font-size: 50px; font-weight: 100;
+    text-shadow: 5px 5px 5px orange;
+    }
+th {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    text-align: center;
+}
+td {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#left {
+    padding-top: 50px;
+    position: relative;
+    width: 49%;
+    display: inline-block;
+    min-height: 100px;
+    left: 1%;
+    text-align: center;
+    font-family: monospace;
+    font-size: 25px;
+    color: #c9d0d4;
+}
+
+#right {
+    padding-top: 50px;
+    position: relative;
+    width: 49%;
+    display: inline-block;
+    min-height: 100px;
+    left: 1%;
+    text-align: center;
+    font-family: monospace;
+    font-size: 25px;
+    color: #c9d0d4;
+}
+.nba {
+    position: absolute;
+    left: 0%;
+    width: 429px; height: 232.300px; margin: 0px;
+
+}
+.fifa {
+    position: absolute;
+    right: 0%;
+}
+
+
+#right img {
+    
+    width: 100%;
+    opacity: 50%;
+}
+
+#left img {
+    width: 100%;
+    opacity: 50%;
+}
+
+#down {
+    padding-top: 350px;
+    position: relative;
+    width: 49%;
+    display: inline-block;
+    min-height: 100px;
+    left: 1%;
+    text-align: center;
+    font-family: monospace;
+    font-size: 25px;
+    color: #c9d0d4;
+}
+#down img {
+    width: 100%;   
+    opacity: 100%;
+    left: 1%;
+}
+#down2 {
+    position: relative;
+    width: 49%;
+    display: inline-block;
+    min-height: 100px;
+    left: 1%;
+    text-align: center;
+    font-family: monospace;
+    font-size: 25px;
+    color: #c9d0d4;
+    
+
+}
+/* Här använde jag linear gradient för att blanda färgerna och genom animation kunde jag göra så att färgerna som jag vald 
+i linear gradient roterar genom 7 sek  */
+body {
+    background:url(imgs/image1.jpg),linear-gradient(250deg,#EE00EE, #e56420,	#c22525, #3d9c31, #37bbde);
+    width:100%;
+    height:100vh;
+    background-size:cover;
+    background-blend-mode: hard-light;
+    animation: hue-rotate 7s linear infinite;
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    
+}
+
+.date {
+    background-color: palegoldenrod;
+    color: black;
+}
+.place {
+    background-color: black;
+    color: coral;
+}
+
+li{
+    display: inline-block;
+    font-family: monospace;
+    color: white;
+    font-size: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+/* Den här koden gör att färgerna ändra på ett viss vinkel och sånt */
+@keyframes hue-rotate {
+  from {
+    -webkit-filter: hue-rotate(0);
+    -moz-filter: hue-rotate(0);
+    -ms-filter: hue-rotate(0);
+    filter: hue-rotate(0);
+  }
+  to {
+    -webkit-filter: hue-rotate(360deg);
+    -moz-filter: hue-rotate(360deg);
+    -ms-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+ 
+
+ }

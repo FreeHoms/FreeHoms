@@ -1,0 +1,46 @@
+
+#center {
+    width: 60%;
+    margin: auto;
+    min-height: 500px;
+    background-color: rgba(27, 5, 1, 0.5);
+}
+.menuItm1 {
+    position: relative;
+    width: 20%;
+    display: inline-block;
+    left: 17%;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+.menuItm1 a:link {
+    color: rgba(255, 255, 255, 0.63);
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+.menuItm1 a:hover{
+    color: coral;
+}
+.menuItm1 a:visited {
+    color: yellowgreen;
+}
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    color: #c9d0d4; font-family:fantasy;
+    font-size: 50px; font-weight: 100;
+    text-shadow: 1px 1px 1px rgb(226, 191, 124);
+}
+
+body{
+    background-color: wheat;
+}
+
+#left{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    left: 1%;
+    width: 98%;   
+}
